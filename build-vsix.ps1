@@ -43,6 +43,7 @@ $zip.AddFile((Convert-Path '.\`[Content_Types`].xml'), "") > $null
 $zip.AddFile((Convert-Path .\extension.vsixmanifest), "") > $null
 $zip.AddFile((Convert-Path .\icon.png), "") > $null
 $zip.AddFile((Convert-Path .\release-notes.txt), "") > $null
+$zip.AddFile((Convert-Path .\LICENSE.txt), "") > $null
 $zip.AddDirectory((Convert-Path .\ItemTemplates), "ItemTemplates") > $null
 $zip.Save((Join-Path $scriptDir "CsharpItemTemplates.$ver.vsix"))
 #DEBUG: $zip.Save((Join-Path $scriptDir "CsharpItemTemplates.zip"))
