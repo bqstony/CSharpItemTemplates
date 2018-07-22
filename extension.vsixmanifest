@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Version="1.0.0.3" Id="cSharpItemTemplates" Language="en-us" Publisher="bqstony" />
+    <Identity Version="1.0.0.7" Id="cSharpItemTemplates" Language="en-us" Publisher="bqstony" />
     <DisplayName>CSharp Item Templates</DisplayName>
     <Description>C# item templates for easy code creation</Description>
     <!--<MoreInfo>http://www.../</MoreInfo>-->

@@ -4,11 +4,11 @@
     <Description>An empty public class definition</Description>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>10</SortOrder>
-    <Icon>__CSharpTemplateIcon.ico</Icon>
+    <Icon>Class_16x.png</Icon>
     <DefaultName>Class.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
     <References />
-    <ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">CSharpPublicClass.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">PublicClass.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

@@ -13,14 +13,24 @@ $zip.AddDirectory((Convert-Path 'xUnit Item Template'), "") > $null
 $zip.Save((Join-Path $projectTemplateDir "xUnitTest.zip"))
 $zip.Dispose()
 
-# Compress CSharp item template contents into .zip file.
+# Compress Csharp Public Class Item Templates contents into .zip file.
 $projectTemplateDir = Join-Path $scriptDir "ItemTemplates\CSharp\Code"
 if ((Test-Path $projectTemplateDir) -eq $false){
     mkdir $projectTemplateDir > $null
 }
 $zip = new-object Ionic.Zip.ZipFile
-$zip.AddDirectory((Convert-Path 'Csharp Item Template'), "") > $null
-$zip.Save((Join-Path $projectTemplateDir "CsharpItemTemplate.zip"))
+$zip.AddDirectory((Convert-Path 'Csharp Public Class Item Template'), "") > $null
+$zip.Save((Join-Path $projectTemplateDir "CsharpPublicClassItemTemplates.zip"))
+$zip.Dispose()
+
+# Compress Csharp Public Enum Item Templates contents into .zip file.
+$projectTemplateDir = Join-Path $scriptDir "ItemTemplates\CSharp\Code"
+if ((Test-Path $projectTemplateDir) -eq $false){
+    mkdir $projectTemplateDir > $null
+}
+$zip = new-object Ionic.Zip.ZipFile
+$zip.AddDirectory((Convert-Path 'Csharp Public Enum Item Template'), "") > $null
+$zip.Save((Join-Path $projectTemplateDir "CsharpPublicEnumItemTemplates.zip"))
 $zip.Dispose()
 
 # Get version infomation from reading manifest file.

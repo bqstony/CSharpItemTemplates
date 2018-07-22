@@ -1,4 +1,8 @@
 # Readme
+## Importend
+
+- Every Template must be in its own folder!
+
 ## MSDN Dokumentation
 - [VSIX Project Template](https://docs.microsoft.com/en-us/visualstudio/extensibility/vsix-project-template)
 - [VSIX Extension Schema 2.0 Reference](https://docs.microsoft.com/en-us/visualstudio/extensibility/vsix-extension-schema-2-0-reference)

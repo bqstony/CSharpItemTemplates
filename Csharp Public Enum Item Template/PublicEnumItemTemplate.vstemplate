@@ -1,0 +1,14 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <Name>public enum</Name>
+    <Description>An empty public enum definition</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>11</SortOrder>
+    <Icon>Enumerator_16x.png</Icon>
+    <DefaultName>Enum.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">PublicEnum.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
