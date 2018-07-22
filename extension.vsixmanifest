@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Version="1.0.0.8" Id="cSharpItemTemplates" Language="en-us" Publisher="bqstony" />
+    <Identity Version="0.1.0.0" Id="cSharpItemTemplates" Language="en-us" Publisher="Michael Helfenstein" />
     <DisplayName>CSharp Item Templates</DisplayName>
     <Description>C# item templates for easy code creation</Description>
     <MoreInfo>https://github.com/bqstony/CSharpItemTemplates</MoreInfo>
@@ -14,7 +14,7 @@
   </Metadata>
 
   <Installation InstalledByMsi="false">
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[15.0,]" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[14.0,]" />
   </Installation>
 
   <Assets>
