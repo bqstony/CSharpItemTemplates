@@ -3,7 +3,7 @@ $scriptDir = Split-Path $MyInvocation.MyCommand.Path
 pushd $scriptDir
 [System.Reflection.Assembly]::LoadFile((Convert-Path "Ionic.Zip.dll")) > $null
 
-# Compress project template contents into .zip file.
+# Compress xUnit item template contents into .zip file.
 $projectTemplateDir = Join-Path $scriptDir "ItemTemplates\CSharp\Test"
 if ((Test-Path $projectTemplateDir) -eq $false){
     mkdir $projectTemplateDir > $null
@@ -11,6 +11,16 @@ if ((Test-Path $projectTemplateDir) -eq $false){
 $zip = new-object Ionic.Zip.ZipFile
 $zip.AddDirectory((Convert-Path 'xUnit Item Template'), "") > $null
 $zip.Save((Join-Path $projectTemplateDir "xUnitTest.zip"))
+$zip.Dispose()
+
+# Compress CSharp item template contents into .zip file.
+$projectTemplateDir = Join-Path $scriptDir "ItemTemplates\CSharp\Code"
+if ((Test-Path $projectTemplateDir) -eq $false){
+    mkdir $projectTemplateDir > $null
+}
+$zip = new-object Ionic.Zip.ZipFile
+$zip.AddDirectory((Convert-Path 'Csharp Item Template'), "") > $null
+$zip.Save((Join-Path $projectTemplateDir "CsharpItemTemplate.zip"))
 $zip.Dispose()
 
 # Get version infomation from reading manifest file.
