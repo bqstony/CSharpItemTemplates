@@ -1,0 +1,4 @@
+# CSharp Item Templates
+
+**Why?**
+I don't like to repeat the same modification over and over again

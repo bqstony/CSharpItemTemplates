@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Version="1.0.0.1" Id="cSharpItemTemplates" Language="en-us" Publisher="bqstony" />
+    <DisplayName>CSharp Item Templates</DisplayName>
+    <Description>C# item templates for easy code creation</Description>
+    <!--<MoreInfo>http://www.../</MoreInfo>-->
+    <!--<License>eula.rtf</License>-->
+    <ReleaseNotes>release-notes.txt</ReleaseNotes>
+    <Icon>icon.png</Icon>
+    <!--<PreviewImage>Images\preview.png</PreviewImage>-->
+    <Tags>c#,c# item template, xunit, template</Tags>
+    <!--<GettingStartedGuide>http://www....</GettingStartedGuide>-->
+  </Metadata>
+
+  <Installation InstalledByMsi="false">
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[15.0]" />
+  </Installation>
+
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="ItemTemplates" />
+  </Assets>
+</PackageManifest>
