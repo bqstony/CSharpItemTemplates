@@ -6,6 +6,7 @@
     <Description>C# item templates for easy code creation</Description>
     <MoreInfo>https://github.com/bqstony/CSharpItemTemplates</MoreInfo>
     <License>LICENSE.txt</License>
+    <GettingStartedGuide>readme.md</GettingStartedGuide>
     <ReleaseNotes>release-notes.txt</ReleaseNotes>
     <Icon>icon_128.png</Icon>
     <PreviewImage>PreviewCSharpItemTemplates.png</PreviewImage>

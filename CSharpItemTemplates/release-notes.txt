@@ -1,8 +1,4 @@
-CSharp Item Templates
----------------------
-
-Why?
-I don't like to repeat the same modification over and over again
-
-Description
-A Simple extension to handle default action of file creation for a C# project.
+CSharp Item Templates:
+- public class
+- public enum
+- xunit test
