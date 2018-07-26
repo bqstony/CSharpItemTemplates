@@ -1,14 +1,22 @@
-<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
     <Name>public class</Name>
-    <Description>An empty public class definition</Description>
-    <ProjectType>CSharp</ProjectType>
-    <SortOrder>10</SortOrder>
+    <Description>An empty public class definition</Description>    
+    <SortOrder>1</SortOrder>
     <Icon>Class_16x.png</Icon>
+    <TemplateID>797bd7bc-021c-4b76-9c95-7316bc5a9ac4</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <DefaultName>Class.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
-    <References />
-    <ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">PublicClass.cs</ProjectItem>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem TargetFileName="$fileinputname$.cs" ReplaceParameters="true">PublicClass.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>
