@@ -58,7 +58,7 @@
     <Content Include="Class_16x.png" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="PublicClassItemTemplate.vstemplate" />
+    <VSTemplate Include="PublicClass.vstemplate" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />

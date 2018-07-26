@@ -64,9 +64,9 @@
     <Content Include="stylesheet.css" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Csharp Public Class Item Template\Csharp Public Class Item Template.csproj">
+    <ProjectReference Include="..\ItemTemplates\CSharp\PublicClass\PublicClass.csproj">
       <Project>{8F061587-F1DD-49A3-BBD7-3F373B7AC97B}</Project>
-      <Name>Csharp Public Class Item Template</Name>
+      <Name>PublicClass</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>

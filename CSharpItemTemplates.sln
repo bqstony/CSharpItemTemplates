@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpItemTemplates", "CSharpItemTemplates\CSharpItemTemplates.csproj", "{A2AB86CB-E16D-4332-AAD3-03A1778AF151}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp Public Class Item Template", "Csharp Public Class Item Template\Csharp Public Class Item Template.csproj", "{8F061587-F1DD-49A3-BBD7-3F373B7AC97B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectItems", "ProjectItems", "{08F115B0-46A4-44F0-A759-C6C578AE8678}"
 	ProjectSection(SolutionItems) = preProject
 		LICENSE = LICENSE
@@ -14,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectItems", "ProjectItem
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ItemTemplates", "ItemTemplates", "{535F0C68-0D0D-45B3-9787-8C83E3C7700E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicClass", "ItemTemplates\CSharp\PublicClass\PublicClass.csproj", "{8F061587-F1DD-49A3-BBD7-3F373B7AC97B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
