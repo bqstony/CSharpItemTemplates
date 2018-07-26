@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-    <Metadata>
-        <Identity Id="CSharpItemTemplates.4ea5e0fd-6fb2-4066-818f-de49df7a3490" Version="0.1.1" Language="en-US" Publisher="Michael Helfenstein" />
-        <DisplayName>CSharp Item Templates</DisplayName>
-        <Description>C# item templates for easy code creation</Description>
-        <MoreInfo>https://github.com/bqstony/CSharpItemTemplates</MoreInfo>
-        <License>LICENSE.txt</License>
-        <ReleaseNotes>release-notes.txt</ReleaseNotes>
-        <Icon>icon.png</Icon>
-        <Tags>c#,c# item template, xunit, template</Tags>
-    </Metadata>
-    <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />
-    </Installation>
-    <Dependencies>
-        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
-    </Dependencies>
-    <Assets>
-        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="PublicClass" d:TargetPath="|PublicClass;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
-    </Assets>
-    <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
-    </Prerequisites>
+  <Metadata>
+    <Identity Id="CSharpItemTemplates.4ea5e0fd-6fb2-4066-818f-de49df7a3490" Version="0.1.1" Language="en-US" Publisher="Michael Helfenstein" />
+    <DisplayName>CSharp Item Templates</DisplayName>
+    <Description>C# item templates for easy code creation</Description>
+    <MoreInfo>https://github.com/bqstony/CSharpItemTemplates</MoreInfo>
+    <License>LICENSE.txt</License>
+    <ReleaseNotes>release-notes.txt</ReleaseNotes>
+    <Icon>icon.png</Icon>
+    <Tags>c#,c# item template, xunit, template</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="PublicClass" d:TargetPath="|PublicClass;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="PublicEnum" d:TargetPath="|PublicEnum;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="XUnitTest" d:TargetPath="|XUnitTest;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
 </PackageManifest>
