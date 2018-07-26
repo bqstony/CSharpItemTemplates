@@ -8,6 +8,7 @@
     <License>LICENSE.txt</License>
     <ReleaseNotes>release-notes.txt</ReleaseNotes>
     <Icon>icon_128.png</Icon>
+    <PreviewImage>PreviewCSharpItemTemplates.png</PreviewImage>
     <Tags>c#,c# item template, xunit, template</Tags>
   </Metadata>
   <Installation>
