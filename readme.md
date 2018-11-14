@@ -10,6 +10,9 @@ The following custom item templates exists (see picture):
 
 ![preview image](https://raw.githubusercontent.com/bqstony/CSharpItemTemplates/master/CSharpItemTemplates/PreviewCSharpItemTemplates.png)
 
+## Marketplace
+[Download](https://marketplace.visualstudio.com/items?itemName=bqstony.csharpitemtemplates1) Visual Studio extension on Marketplace
+
 ## credits
 `Star` icon is made by [Freepik](http://www.freepik.com) from [Flaticon](https://www.flaticon.com/) is licensed by [Creative Commons BY 3.0](http://creativecommons.org/licenses/by/3.0/) 
 
