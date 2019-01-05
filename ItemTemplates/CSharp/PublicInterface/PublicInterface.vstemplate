@@ -3,20 +3,14 @@
   <TemplateData>
     <Name>public interface</Name>
     <Description>An empty public interface definition</Description>    
-    <SortOrder>1</SortOrder>
+    <SortOrder>2</SortOrder>
     <Icon>Interface_16x.png</Icon>
     <TemplateID>F7234525-B0D2-450E-9230-A3C4ECA8E248</TemplateID>
     <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <DefaultName>Interface.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
-    <References>
-      <Reference>
-        <Assembly>System</Assembly>
-      </Reference>
-    </References>
     <ProjectItem TargetFileName="$fileinputname$.cs" ReplaceParameters="true">PublicInterface.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

@@ -7,16 +7,10 @@
     <Icon>Class_16x.png</Icon>
     <TemplateID>797bd7bc-021c-4b76-9c95-7316bc5a9ac4</TemplateID>
     <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <DefaultName>Class.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
-    <References>
-      <Reference>
-        <Assembly>System</Assembly>
-      </Reference>
-    </References>
     <ProjectItem TargetFileName="$fileinputname$.cs" ReplaceParameters="true">PublicClass.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

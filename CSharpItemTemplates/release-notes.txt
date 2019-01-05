@@ -1,11 +1,11 @@
-# Change log
+# Features
 
 ## Common
 - Support VS2017 / (preview) VS2019
+- Support .Net standard projects
 
 ## CSharp Item Templates:
 - public class
 - public enum
 - public interface
 - xunit test
-

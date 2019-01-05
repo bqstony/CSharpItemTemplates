@@ -3,20 +3,14 @@
   <TemplateData>
     <Name>public enum</Name>
     <Description>An empty public enum definition</Description>
-    <SortOrder>2</SortOrder>
+    <SortOrder>3</SortOrder>
     <Icon>Enumerator_16x.png</Icon>
     <TemplateID>C3C4E759-CA64-4320-8B4D-B11331AAFBF5</TemplateID>
     <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <DefaultName>Enum.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
-    <References>
-      <Reference>
-        <Assembly>System</Assembly>
-      </Reference>
-    </References>
     <ProjectItem TargetFileName="$fileinputname$.cs" ReplaceParameters="true">PublicEnum.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>
