@@ -90,6 +90,13 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
+    <ProjectReference Include="..\ItemTemplates\CSharp\PublicInterface\PublicInterface.csproj">
+      <Project>{45ae8fed-aaeb-4641-a4c4-23737056e363}</Project>
+      <Name>PublicInterface</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\ItemTemplates\CSharp\xUnit\XUnitTest.csproj">
       <Project>{349616AD-D12A-4365-A5BD-2442B2D07E28}</Project>
       <Name>XUnitTest</Name>
