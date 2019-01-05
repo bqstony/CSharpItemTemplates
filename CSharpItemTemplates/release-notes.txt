@@ -1,5 +1,11 @@
-CSharp Item Templates:
+# Change log
+
+## Common
+- Support VS2017 / (preview) VS2019
+
+## CSharp Item Templates:
 - public class
 - public enum
 - public interface
 - xunit test
+
