@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest", "ItemTemplates\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicInterface", "ItemTemplates\CSharp\PublicInterface\PublicInterface.csproj", "{45AE8FED-AAEB-4641-A4C4-23737056E363}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectTemplates", "ProjectTemplates", "{7A34EEFA-7E74-49E1-941F-654A064875BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitProject", "ProjectTemplates\CSharp\xUnitProject\xUnitProject.csproj", "{EE425FD0-CFA6-45C3-B307-339585235D44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,10 @@ Global
 		{45AE8FED-AAEB-4641-A4C4-23737056E363}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45AE8FED-AAEB-4641-A4C4-23737056E363}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45AE8FED-AAEB-4641-A4C4-23737056E363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE425FD0-CFA6-45C3-B307-339585235D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE425FD0-CFA6-45C3-B307-339585235D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE425FD0-CFA6-45C3-B307-339585235D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE425FD0-CFA6-45C3-B307-339585235D44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +64,7 @@ Global
 		{0FC2B060-003D-4F9B-8661-D8DAD2FD941B} = {535F0C68-0D0D-45B3-9787-8C83E3C7700E}
 		{349616AD-D12A-4365-A5BD-2442B2D07E28} = {535F0C68-0D0D-45B3-9787-8C83E3C7700E}
 		{45AE8FED-AAEB-4641-A4C4-23737056E363} = {535F0C68-0D0D-45B3-9787-8C83E3C7700E}
+		{EE425FD0-CFA6-45C3-B307-339585235D44} = {7A34EEFA-7E74-49E1-941F-654A064875BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {11970122-2D85-4321-94EA-4F7718D9330C}

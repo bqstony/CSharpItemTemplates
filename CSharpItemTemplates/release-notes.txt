@@ -9,3 +9,6 @@
 - public enum
 - public interface
 - xunit test
+
+## CSharp Project Templates:
+- xunit Project

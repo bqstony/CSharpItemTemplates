@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>xUnit Test Project</Name>
+    <Description>An empty xUnit test project</Description>
+    <Icon>xUnitProject.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>1</SortOrder>
+    <TemplateID>f0ab2505-35be-437f-9353-1e71cb4e579d</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>xUnit.Test</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">XunitTest.cs</ProjectItem>      
+    </Project>        
+  </TemplateContent>
+</VSTemplate>
