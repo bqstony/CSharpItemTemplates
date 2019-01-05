@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 using Xunit;
 using Xunit.Abstractions;
 
-
 namespace $rootnamespace$
 {
     public class $safeitemname$

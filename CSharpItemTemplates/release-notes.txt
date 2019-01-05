@@ -1,4 +1,5 @@
 CSharp Item Templates:
 - public class
 - public enum
+- public interface
 - xunit test
