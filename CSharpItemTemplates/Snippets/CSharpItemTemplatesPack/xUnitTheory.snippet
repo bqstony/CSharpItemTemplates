@@ -1,0 +1,48 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>xUnit theory method</Title>
+    <Author>bqstony</Author>
+    <Shortcut>xUnitTheory</Shortcut>
+    <Description>xUnit theory method</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>Xunit</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the test method</ToolTip>
+          <Default>SomethingShouldBeDone</Default>
+        </Literal>
+        <Literal>
+          <ID>values</ID>
+          <ToolTip>Replace the content with the test values</ToolTip>
+          <Default>"value"</Default>
+        </Literal>
+        <Literal>
+          <ID>valuesdefinition</ID>
+          <ToolTip>define the method arguments that match with the inline data values</ToolTip>
+          <Default>"value"</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[[Theory]
+      [InlineData($values$)]
+      public void $name$($valuesdefinition$)
+      {
+          // Arrange
+          $end$
+
+          // Act
+
+          // Assert
+
+      }]]></Code>
+    </Snippet>
+</CodeSnippet>

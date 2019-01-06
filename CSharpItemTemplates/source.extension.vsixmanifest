@@ -10,7 +10,7 @@
         <ReleaseNotes>release-notes.txt</ReleaseNotes>
         <Icon>icon_128.png</Icon>
         <PreviewImage>PreviewCSharpItemTemplates.png</PreviewImage>
-        <Tags>c#,c# item template, xunit, template</Tags>
+        <Tags>c#,c# item template, template, project template, code snippet, xunit, xbehave, unit test</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0,17.0)" />
@@ -24,6 +24,7 @@
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="PublicInterface" d:TargetPath="|PublicInterface;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="XUnitTest" d:TargetPath="|XUnitTest;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates\My Tests" />
         <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="xUnitProject" d:TargetPath="|xUnitProject;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Snippets\snippets.pkgdef" />
     </Assets>
     <Prerequisites>
         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
