@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="CSharpItemTemplates.4ea5e0fd-6fb2-4066-818f-de49df7a3490" Version="0.1.1" Language="en-US" Publisher="Michael Helfenstein" />
+        <Identity Id="CSharpItemTemplates.4ea5e0fd-6fb2-4066-818f-de49df7a3490" Version="0.2.0" Language="en-US" Publisher="bqstony" />
         <DisplayName>CSharp Item Templates</DisplayName>
-        <Description>C# item templates for easy code creation</Description>
+        <Description xml:space="preserve">C# item templates, project templates and code snippets for easy code creation</Description>
         <MoreInfo>https://github.com/bqstony/CSharpItemTemplates</MoreInfo>
         <License>LICENSE.txt</License>
         <GettingStartedGuide>readme.md</GettingStartedGuide>
