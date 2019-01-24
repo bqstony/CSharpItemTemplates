@@ -22,8 +22,6 @@ A Simple extension to handle default actions of file creation for a C# project.
 ### CSharp Project Templates:
 - xUnit Project
 
-![preview image](https://raw.githubusercontent.com/bqstony/CSharpItemTemplates/master/CSharpItemTemplates/PreviewCSharpCodeSnippets.png)
-
 ### Common
 - support VS2017 / (preview) VS2019
 - support .Net standard projects
