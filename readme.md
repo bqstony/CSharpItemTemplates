@@ -1,3 +1,6 @@
+**Importand note**
+Because of a limitation in the marketplace i will not spend much more time in this addon. I will add the link here for the following Extension Project.
+
 # CSharp Item Templates
 
 ## Why?
@@ -19,14 +22,6 @@ A Simple extension to handle default actions of file creation for a C# project.
 ### CSharp Project Templates:
 - xUnit Project
 
-### CSharp code snippet:
-- xUnit fact method -> 'xUnitFact'
-- xUnit theory method -> 'xUnitTheory'
-- xUnit ctor with ITestOutputHelper -> 'xUnitCtor'
-- xBehave scenario method -> 'xBehaveScenario'
-- xBehave background method -> 'xBehaveBackground'
-- xBehave step -> 'xBehaveStep' or 'xBehaveStepCompact'
-
 ![preview image](https://raw.githubusercontent.com/bqstony/CSharpItemTemplates/master/CSharpItemTemplates/PreviewCSharpCodeSnippets.png)
 
 ### Common
@@ -38,3 +33,6 @@ A Simple extension to handle default actions of file creation for a C# project.
 
 ## credits
 `Star` icon is made by [Freepik](http://www.freepik.com) from [Flaticon](https://www.flaticon.com/) is licensed by [Creative Commons BY 3.0](http://creativecommons.org/licenses/by/3.0/) 
+
+## Project limitations 
+This extension is in the marketplace clasified as Template Project. So there are limitations what possible.
