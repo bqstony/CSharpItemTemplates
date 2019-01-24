@@ -1,5 +1,0 @@
-﻿; Replace "JavaScript" with any of the supported languages
-; Languages: "Basic", "C/C++", "CSharp", "CSS", "HTML", "JavaScript", "SQL_SSDT", "XML"
-
-[$RootKey$\Languages\CodeExpansions\CSharp\Paths]
-"CSharpItemTemplatesPack"="$PackageFolder$\CSharpItemTemplatesPack"

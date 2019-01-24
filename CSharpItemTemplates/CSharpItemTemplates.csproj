@@ -47,34 +47,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Snippets\CSharpItemTemplatesPack\xUnitFact.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="Snippets\CSharpItemTemplatesPack\xUnitCtor.snippet">
-      <SubType>Designer</SubType>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Snippets\CSharpItemTemplatesPack\xUnitTheory.snippet">
-      <SubType>Designer</SubType>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Snippets\CSharpItemTemplatesPack\xBehaveScenario.snippet">
-      <SubType>Designer</SubType>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Snippets\CSharpItemTemplatesPack\xBehaveStep.snippet">
-      <SubType>Designer</SubType>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Snippets\CSharpItemTemplatesPack\xBehaveStepCompact.snippet">
-      <SubType>Designer</SubType>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Snippets\CSharpItemTemplatesPack\xBehaveBackground.snippet">
-      <SubType>Designer</SubType>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="..\readme.md">
       <Link>readme.md</Link>
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -100,10 +72,6 @@
     <Content Include="release-notes.txt">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Snippets\snippets.pkgdef">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="stylesheet.css" />
   </ItemGroup>

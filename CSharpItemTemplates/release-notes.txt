@@ -12,11 +12,3 @@
 
 ## CSharp Project Templates:
 - xUnit Project
-
-## CSharp code snippet:
-- xUnit fact method -> 'xUnitFact'
-- xUnit theory method -> 'xUnitTheory'
-- xUnit ctor with ITestOutputHelper -> 'xUnitCtor'
-- xBehave scenario method -> 'xBehaveScenario'
-- xBehave background method -> 'xBehaveBackground'
-- xBehave step -> 'xBehaveStep' or 'xBehaveStepCompact'
